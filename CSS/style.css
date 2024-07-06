@@ -1,0 +1,50 @@
+.navLogo{
+    width: 40px;
+}
+nav{
+    margin-top: 23vh;
+    background-color: #3a497b;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2),0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+body{
+    background-image: url(../images/wraper.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30vh;
+}
+.nav-link{
+color: #fff;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #0099cc;
+}
+.navbar-nav .nav-link.active{
+    color: #0099cc;
+}
+.card{
+    height: 350px;
+    filter: grayscale(75%);
+    transition: all 0.5s;
+}
+.card:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+.card footer{
+    height: 35px;
+}
+.free{
+    background-color: #3a497b; 
+}
+#details{
+    background-color: #27282a;
+}
+.closeIcon{
+    top: 25px;
+    right : 25px;
+    font-size: 20px;
+    color: #939395;
+    cursor: pointer;
+}
+.loader{
+    z-index: 10;
+}
